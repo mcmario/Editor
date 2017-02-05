@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <style>
+    
+    
+    </style>
+</head>
+<body>
+<div class="box">
+    <nav class="navigation">
+      <button id="save">Save</button>
+        <button id="createtable">Create Table</button>
+        <button id="createlist">Create List</button> 
+      
+      
+       
+        <button id="edit">Edit</button>
+        <button id="b">B</button>
+        <button id="i">I</button>    
+        <button id="u">U</button>
+         <select name="sizetext" id="fontsize">
+            <option value="">12pt</option>
+            <option value="">14pt</option>
+            <option value="">16pt</option>
+            <option value="">18pt</option>
+            <option value="">20pt</option>
+            <option value="">22pt</option>
+            <option value="">24pt</option>
+            <option value="">30pt</option>
+            <option value="">36pt</option>
+            <option value="">40pt</option>
+        </select>
+        
+        <select name="fontf" id="fontfamily">
+            <option value="">'Times New Roman'</option>
+            <option value="">Georgia</option>
+            <option value="">Geneva</option>
+            <option value="">Arial</option>
+            <option value="">Helvetica</option>
+            <option value="">sans-serif</option>
+            <option value="">monospace</option>
+            <option value="">fantasy</option>
+            <option value="">Courier</option>
+        </select>
+        
+        <button id="color">Color</button>
+        <button id="background1">Background</button>
+        
+     <form action="" id="form1">
+         <label for="q1">  <input type="radio" name="textalign" id="q1">
+          <span>left</span>
+           </label>
+            <label for="q2">  <input type="radio" name="textalign" id="q2"><span>center</span>
+           </label>
+            <label for="q3">  <input type="radio" name="textalign" id="q3"><span>right</span>
+           </label>
+          
+         </form>
+        
+    </nav>
+    <div id="main2">
+         <textarea name="texta1" id="area" cols="140" rows="100"></textarea>
+         
+         <div id="table">
+             <p>К-сть рядків &nbsp;&nbsp;
+             <input type="text" id="row">
+             К-сть стовбців
+             <input type="text" id="col">
+             </p>
+             <br>
+             <p>
+                 Ширина &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" id="schuruna">
+                 
+                 Висота &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="vusota">
+             </p>
+             <br>
+             <p>
+                 cellspacing &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" id="cellspacing">
+             </p>
+             <br>
+             <p>Товщина рамки <input type="text" id="tov">
+             
+             Колір рамки&nbsp; <input type="text" id="colortable">
+  
+             </p>
+             <br>
+             <br>
+             <br>
+             <p>
+                 <button id="cleartable">Скинути</button>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <button id="createtablebut">Створити</button>
+             </p>
+             
+         </div>
+         <div id="list">
+         <p>
+             Тип списку
+             <label for="q11">  <input type="radio" name="ol" id="q11" checked>
+          <span>ol</span>
+           </label>
+         </p><br>
+           
+            <p>
+                Тип маркера
+                  <select name="typem" id="typemark">
+            <option value="default">default</option>
+            <option value="upper-alpha
+">A</option>
+            <option value="lower-alpha
+">a</option>
+            <option value="upper-roman">I</option>
+            <option value="lower-roman
+">i</option>
+        </select>
+            </p>
+             <br>
+             <p>
+                 К-сть айтемів 
+                 <input type="text" id="killist">
+             </p>
+             
+              <br>
+             <p>
+                 <button id="clearlist">Скинути</button>
+                 <button id="creatlist1">Створити</button>
+                
+             </p>
+             
+         </div>
+         
+         
+    </div>
+    
+    
+    
+    
+    
+    <main id="main">
+        <p> Добратися до міста Лева просто, адже тут діє міжнародний 
+        аеропорт «Львів», новий термінал «А» якого був відкритий весною 
+        <br>
+        2012 року. 16 авіакомпаній здійснюють рейси з аеропорту у більш ніж 30 напрямків. <br> Здійснюються щоденні рейси до Варшави, Відня, Києва та Москви. 
+        Відстань від аеропорту до центру міста становить 7 км.</p>
+<p>
+    Львівська область третя за кількістю наукових організацій в Україні. 
+    Львів - це стародавній науковий центр Європи. 
+        <p>Тут винайшли гас та першу у світі ефективну вакцину проти епідемії тифу. 
+    Американський журнал <br>
+     «R&D Magazine» ставить винаходи львівських науковців на рівні з винаходами НАСА у рейтингу</p> <p>«100 найкращих досягнень світу». 
+    У Львові знаходиться близько 40 науково-дослідних інститутів. KPMG визнала
+    <br>    Львів передовим напрямком, що розвивається, для IT-BPO у Європі, 
+    Африці та на Близькому Сході</p>
+    
+    
+    
+    
+    
+      
+     
+     
+     
+     
+    </main>
+    
+    
+    
+     <div id="colorblock">
+         <div class="some4" style="background: red" ></div>
+        <div class="some4" style="background: green"  ></div>
+        <div class="some4" style="background: yellow" ></div>
+        <div class="some4" style="background: blue" ></div>
+        <div class="some4" style="background: white" ></div>
+        <div class="some4" style="background: orange" ></div>
+        <div class="some4" style="background: brown" ></div>
+        <div class="some4" style="background: pink" ></div>
+        <div class="some4" style="background: gray" ></div>
+     
+     </div>
+            <div id="colorbg">
+            <button id="bgimage">Background image</button>
+            <div id="bgi">
+         <div class="some5" style="background: red" ></div>
+        <div class="some5" style="background: green"  ></div>
+        <div class="some5" style="background: yellow" ></div>
+        <div class="some5" style="background: blue" ></div>
+        <div class="some5" style="background: white" ></div>
+        <div class="some5" style="background: orange" ></div>
+        <div class="some5" style="background: brown" ></div>
+        <div class="some5" style="background: pink" ></div>
+        <div class="some5" style="background: gray" ></div>
+     </div>
+     </div>
+     
+     <div id="bgi2">
+         <button id="bgcolor">Background Color</button>
+          <div>
+           <div class="some6" style=" background-image: url(images/1.jpg);"></div>
+        <div class="some6" style=" background-image: url(images/2.jpg);"></div>
+        <div class="some6" style=" background-image: url(images/3.jpg);"></div>
+        <div class="some6" style=" background-image: url(images/4.jpg);"></div>
+        <div class="some6" style=" background-image: url(images/5.jpg);"></div>
+        <div class="some6" style=" background-image: url(images/6.jpg);"></div>
+        <div class="some6" style=" background-image: url(images/7.jpg);"></div>
+        <div class="some6" style=" background-image: url(images/8.jpg);"></div>
+        <div class="some6" style=" background-image: url(images/9.jpg);"></div>
+        </div>
+        <br>
+        Загрузити файл
+        <br>
+<!--        <input type="file" id="dowimg">-->
+    <input type="file" onchange="previewFile()" id="dowimg"><br>
+
+     </div>
+    
+    
+  
+</div>
+    <script src="js/main.js"></script>
+</body>
+</html>
